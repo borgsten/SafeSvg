@@ -1,4 +1,4 @@
-module Svg exposing
+module SafeSvg exposing
   ( Svg, Attribute, text, node, map
   , svg, foreignObject
   , circle, ellipse, image, line, path, polygon, polyline, rect, use
@@ -14,7 +14,7 @@ module Svg exposing
   , feFuncB, feFuncG, feFuncR, feGaussianBlur, feImage, feMerge, feMergeNode
   , feMorphology, feOffset, feSpecularLighting, feTile, feTurbulence
   , feDistantLight, fePointLight, feSpotLight
-  , clipPath, colorProfile, cursor, filter, script, style, view
+  , clipPath, colorProfile, cursor, filter, style, view
   )
 
 {-|

@@ -1,4 +1,4 @@
-module Svg.Events exposing
+module SafeSvg.Events exposing
   ( on
   , onBegin, onEnd, onRepeat
   , onAbort, onError, onResize, onScroll, onLoad, onUnload, onZoom

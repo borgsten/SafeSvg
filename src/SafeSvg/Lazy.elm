@@ -1,4 +1,4 @@
-module Svg.Lazy exposing
+module SafeSvg.Lazy exposing
   ( lazy, lazy2, lazy3
   )
 

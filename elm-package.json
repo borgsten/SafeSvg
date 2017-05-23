@@ -1,17 +1,17 @@
 {
     "version": "2.0.0",
-    "summary": "Fast SVG, rendered with virtual DOM diffing",
-    "repository": "https://github.com/elm-lang/svg.git",
+    "summary": "Fast SVG, rendered with virtual DOM diffing. Script tag removed to prevent arbitrary javascript execution.",
+    "repository": "https://github.com/borgsten/SafeSvg.git",
     "license": "BSD3",
     "source-directories": [
         "src"
     ],
     "exposed-modules": [
-        "Svg",
-        "Svg.Attributes",
-        "Svg.Events",
-        "Svg.Keyed",
-        "Svg.Lazy"
+        "SafeSvg",
+        "SafeSvg.Attributes",
+        "SafeSvg.Events",
+        "SafeSvg.Keyed",
+        "SafeSvg.Lazy"
     ],
     "dependencies": {
         "elm-lang/core": "5.0.0 <= v < 6.0.0",

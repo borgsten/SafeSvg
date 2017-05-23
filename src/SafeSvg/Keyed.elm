@@ -1,4 +1,4 @@
-module Svg.Keyed exposing ( node )
+module SafeSvg.Keyed exposing ( node )
 {-| A keyed node helps optimize cases where children are getting added, moved,
 removed, etc. Common examples include:
 
