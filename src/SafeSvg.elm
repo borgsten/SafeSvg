@@ -1,5 +1,5 @@
 module SafeSvg exposing
-  ( Svg, Attribute, text, node, map
+  ( Svg, Attribute, text, map
   , svg, foreignObject
   , circle, ellipse, image, line, path, polygon, polyline, rect, use
   , animate, animateColor, animateMotion, animateTransform, mpath, set
